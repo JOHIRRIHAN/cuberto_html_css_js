@@ -85,6 +85,9 @@ html, body{
 }
 
 #featured{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
     padding: 10vw 15vw;
 }
 #featured h1{
@@ -124,9 +127,15 @@ html, body{
     line-height: 1;
     font-weight: 400;
     text-transform: capitalize;
-    margin: 2vw 0;
+    margin: 1.5vw 0;
 }
-
+#f-left .f-left-elem h4{
+    opacity: .5;
+}
+#f-left .f-left-elem h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
 #f-right{
     width: 45%;
     height: inherit;
@@ -139,4 +148,28 @@ html, body{
     width: 90%;
     height: 90%;
     background-color: rgb(255, 162, 0);
+}
+#btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+}
+
+
+
+
+
+/* dev  */
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
 }
